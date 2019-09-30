@@ -41,7 +41,7 @@ footer {
                 
         &.one     {@include socialMedia($social_media_img, ($social_media_px_x * 0), $social_media_px_y);}
         &.two 	  {@include socialMedia($social_media_img, ($social_media_px_x * 1), $social_media_px_y);}
-        &.three   {@include socialMedia($social_media_img, ($social_media_px_x * 2) $social_media_px_y);}
+        &.three   {@include socialMedia($social_media_img, ($social_media_px_x * 2), $social_media_px_y);}
         &.four 	  {@include socialMedia($social_media_img, ($social_media_px_x * 3), $social_media_px_y);}
     }
 
