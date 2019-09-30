@@ -1,0 +1,16 @@
+body {
+    font-family: $font_family;
+    font-size: $body_font_size;
+    line-height: 2em;
+    background: url($background_image_url) $white_color repeat-x;
+    margin:0;
+}
+
+main {
+    width:$main_width;
+    margin:0 auto;
+    padding:0 10px;
+    @include break($media_bp1)    {width: 300px;}
+    @include break($media_bp2)    {width: 460px;}
+    @include break($media_bp3)    {width: 768px;}
+}
