@@ -8,9 +8,9 @@ body {
 
 main {
     width:$main_width;
+    @include break($media_bp3)    {width: 768px;}
+    @include break($media_bp2)    {width: 460px;}
+    @include break($media_bp1)    {width: 300px;}
     margin:0 auto;
     padding:0 10px;
-    @include break($media_bp1)    {width: 300px;}
-    @include break($media_bp2)    {width: 460px;}
-    @include break($media_bp3)    {width: 768px;}
 }

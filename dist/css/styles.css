@@ -314,15 +314,15 @@ main {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px; }
-  @media screen and (max-width: 459px) {
-    main {
-      width: 300px; } }
-  @media screen and (max-width: 767px) {
-    main {
-      width: 460px; } }
   @media screen and (max-width: 959px) {
     main {
       width: 768px; } }
+  @media screen and (max-width: 767px) {
+    main {
+      width: 460px; } }
+  @media screen and (max-width: 459px) {
+    main {
+      width: 300px; } }
 
 figure {
   width: 400px;
@@ -333,31 +333,31 @@ figure {
   float: left;
   display: block;
   margin: 0; }
-  @media screen and (max-width: 459px) {
-    figure {
-      background-size: contain;
-      height: 100px; } }
   @media screen and (max-width: 959px) {
     figure {
       width: inherit;
       height: 140px;
       float: none;
       background-position: center; } }
+  @media screen and (max-width: 459px) {
+    figure {
+      background-size: contain;
+      height: 100px; } }
 
 nav {
   width: 540px;
   height: 190px;
   float: left;
   text-align: right; }
-  @media screen and (max-width: 459px) {
-    nav {
-      margin-bottom: 40px !important; } }
   @media screen and (max-width: 959px) {
     nav {
       width: inherit;
       height: 50px;
       float: none;
       text-align: center; } }
+  @media screen and (max-width: 459px) {
+    nav {
+      margin-bottom: 40px !important; } }
   nav ul {
     list-style-type: none;
     margin-top: 95px; }
@@ -368,14 +368,14 @@ nav {
       display: inline;
       font-size: 0.8em;
       margin-right: 10px; }
-      @media screen and (max-width: 767px) {
-        nav ul li {
-          font-size: 0.8em;
-          margin: 0 5px; } }
       @media screen and (max-width: 959px) {
         nav ul li {
           font-size: 1em;
           margin: 0 10px; } }
+      @media screen and (max-width: 767px) {
+        nav ul li {
+          font-size: 0.8em;
+          margin: 0 5px; } }
       nav ul li a {
         color: #E65C43;
         text-decoration: none;
@@ -391,23 +391,23 @@ header {
   header img {
     max-width: 100%;
     height: auto; }
-    @media screen and (max-width: 459px) {
-      header img {
-        margin-bottom: 80px; } }
     @media screen and (max-width: 767px) {
       header img {
         margin-bottom: 100px; } }
+    @media screen and (max-width: 459px) {
+      header img {
+        margin-bottom: 80px; } }
   header h1 {
     color: #E65C43;
     font-weight: 100;
     font-size: 4em;
     line-height: 0; }
-    @media screen and (max-width: 767px) {
-      header h1 {
-        font-size: 2em; } }
     @media screen and (max-width: 959px) {
       header h1 {
         font-size: 3em; } }
+    @media screen and (max-width: 767px) {
+      header h1 {
+        font-size: 2em; } }
     @media screen and (max-width: 459px) {
       header h1:first-child {
         font-size: 1.4em;
@@ -418,28 +418,28 @@ header {
     font-size: 2.5em;
     line-height: 0;
     margin-bottom: 70px; }
-    @media screen and (max-width: 459px) {
-      header h2 {
-        font-size: 1.4em; } }
-    @media screen and (max-width: 767px) {
-      header h2 {
-        font-size: 1em; } }
     @media screen and (max-width: 959px) {
       header h2 {
         font-size: 1.5em; } }
+    @media screen and (max-width: 767px) {
+      header h2 {
+        font-size: 1em; } }
+    @media screen and (max-width: 459px) {
+      header h2 {
+        font-size: 1.4em; } }
   header h3 {
     color: #666;
     font-weight: 400;
     font-size: 2em;
     line-height: 0;
     margin-bottom: 50px; }
+    @media screen and (max-width: 959px) {
+      header h3 {
+        font-size: 1.5em; } }
     @media screen and (max-width: 459px) {
       header h3 {
         color: #FFF;
         font-size: 1em; } }
-    @media screen and (max-width: 959px) {
-      header h3 {
-        font-size: 1.5em; } }
 
 #headline {
   width: 100%;
@@ -452,14 +452,14 @@ header {
     font-size: 2.5em;
     font-weight: 100;
     padding-top: 50px; }
-    @media screen and (max-width: 459px) {
-      #headline h1 {
-        font-size: 1.5em;
-        padding-top: 30px; } }
     @media screen and (max-width: 767px) {
       #headline h1 {
         font-size: 2em;
         padding-top: 50px; } }
+    @media screen and (max-width: 459px) {
+      #headline h1 {
+        font-size: 1.5em;
+        padding-top: 30px; } }
 
 #content {
   width: 940px;
@@ -477,15 +477,15 @@ header {
   #content #products {
     width: 460px;
     float: left; }
+    @media screen and (max-width: 959px) {
+      #content #products {
+        width: 46%;
+        margin: 0 2%; } }
     @media screen and (max-width: 767px) {
       #content #products {
         width: 96%;
         margin: 0 2%;
         float: none; } }
-    @media screen and (max-width: 959px) {
-      #content #products {
-        width: 46%;
-        margin: 0 2%; } }
     #content #products img {
       float: left;
       margin-right: 20px; }
@@ -499,15 +499,15 @@ header {
   #content #testimonials {
     width: 460px;
     float: right; }
+    @media screen and (max-width: 959px) {
+      #content #testimonials {
+        width: 46%;
+        margin: 0 2%; } }
     @media screen and (max-width: 767px) {
       #content #testimonials {
         width: 96%;
         margin: 0 2%;
         float: none; } }
-    @media screen and (max-width: 959px) {
-      #content #testimonials {
-        width: 46%;
-        margin: 0 2%; } }
 
 .greybar {
   width: 100%;

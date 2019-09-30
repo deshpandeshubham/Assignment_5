@@ -1,32 +1,32 @@
 figure {       
     @include logo(400px, 190px, $nav_background_url, no-repeat, 0, 50px, left, block, 0); 
     
-    @include break($media_bp1) {
-        background-size: contain;
-        height: 100px;
-    }
-    
     @include break($media_bp3) {
         width: inherit;
         height: 140px;
         float: none;
         background-position: center;
-    }              
+    } 
+    
+    @include break($media_bp1) {
+        background-size: contain;
+        height: 100px;
+    }             
 }
 
 nav {
     
     @include navMenu(540px, 190px, left, right);
 
-    @include break($media_bp1) {
-        margin-bottom: 40px !important;
-    }
-    
     @include break($media_bp3) {
         width: inherit;
         height: 50px;
         float: none;
         text-align : center;
+    }
+    
+    @include break($media_bp1) {
+        margin-bottom: 40px !important;
     }
 
     ul {
@@ -40,14 +40,14 @@ nav {
             font-size: $nav_ul_li_font_size;
             margin-right:10px;
             
-            @include break($media_bp2) {
-                font-size: 0.8em;
-                margin: 0 5px;
-            }
-        
             @include break($media_bp3) {
                 font-size: $font_1em;
                 margin: 0 10px;
+            }
+            
+            @include break($media_bp2) {
+                font-size: 0.8em;
+                margin: 0 5px;
             }
 
             a {

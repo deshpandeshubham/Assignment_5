@@ -7,8 +7,8 @@ header {
     img {
         max-width:100%;
         height:auto;
-        @include break($media_bp1)    {margin-bottom: 80px;}
         @include break($media_bp2)    {margin-bottom:100px;}
+        @include break($media_bp1)    {margin-bottom: 80px;}
     }
 
     h1 {
@@ -16,8 +16,8 @@ header {
         font-weight:100;
         font-size: $h1_font_size;
         line-height:0;
-        @include break($media_bp2)   {font-size: $h3_font_size;}
         @include break($media_bp3)   {font-size: $media_h1_font;}
+        @include break($media_bp2)   {font-size: $h3_font_size;}
         &:first-child {
             @include break($media_bp1) {
                font-size:$font_14em;
@@ -32,9 +32,9 @@ header {
         font-size: $h2_font_size;
         line-height:0;
         margin-bottom:70px;    
-        @include break($media_bp1)   {font-size:$font_14em;}
-        @include break($media_bp2)   {font-size:$font_1em;} 
         @include break($media_bp3)   {font-size:$media_h2_font;}   
+        @include break($media_bp2)   {font-size:$font_1em;} 
+        @include break($media_bp1)   {font-size:$font_14em;}
     }
 
     h3 {
@@ -43,11 +43,11 @@ header {
         font-size: $h3_font_size;
         line-height:0;
         margin-bottom:50px;
+        @include break($media_bp3)  {font-size: $media_h2_font}
         @include break($media_bp1) {
             color: $white_color;
             font-size: $font_1em;
         }
-        @include break($media_bp3)  {font-size: $media_h2_font}
     }
 }
 
